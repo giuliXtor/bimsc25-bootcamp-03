@@ -10,6 +10,7 @@
             <span id="about">About</span>
             <span id="content">Contact</span>
         </div>
+
     </div>
     <div class="flexRow" style="height: calc(100vh - var(--navBarHeight));">
         <div id="sidebar" class="flexColumn">
@@ -78,10 +79,8 @@
                     <p style="margin-left: 1px"> Number of Sandwhiches: {{ count_sandwhiches }} </p>
                 </div>
             </div>
-
         </div>
     </div>
-
 
 </template>
 
