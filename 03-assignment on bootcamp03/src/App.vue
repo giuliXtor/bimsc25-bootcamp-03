@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-</script>
 
 <template>
     <div id="navBar" class="flexRow spaceBetween alignCenter">
@@ -24,17 +20,17 @@ import HelloWorld from './components/HelloWorld.vue'
         <div id="main">
             <div id="breakfastFoods" class="flexRow wrap">
                 <div class="menuItem">
-                    <img src="../assets/breakfastImages/bagel.jpg" width="100%" height="133px">
+                    <img src="./assets/breakfastImages/bagel.jpg" width="100%" height="133px">
                     <h4>Bagel</h4>
                     <p>Bagel with cream cheese</p>
                 </div>
                 <div class="menuItem">
-                    <img src="../assets/breakfastImages/omelet.jpg" width="100%">
+                    <img src="./assets/breakfastImages/omelet.jpg" width="100%">
                     <h4>Omelet</h4>
                     <p>4 egg omelet with cheese</p>
                 </div>
                 <div class="menuItem">
-                    <img src="../assets/breakfastImages/pancakes.jpg" width="100%">
+                    <img src="./assets/breakfastImages/pancakes.jpg" width="100%">
                     <h4>Pancakes</h4>
                     <p>Pancakes with syrup</p>
                 </div>
@@ -42,12 +38,12 @@ import HelloWorld from './components/HelloWorld.vue'
             
             <div id="lunchFoods" class="flexRow wrap">
                 <div class="menuItem">
-                    <img src="../assets/lunchImages/soup.jpg" width="100%">
+                    <img src="./assets/lunchImages/soup.jpg" width="100%">
                     <h4>Soup</h4>
                     <p>Tomato</p>
                 </div>
                 <div class="menuItem">
-                    <img src="../assets/lunchImages/sandwhich.jpg" width="100%">
+                    <img src="./assets/lunchImages/sandwhich.jpg" width="100%">
                     <h4>Sandwhich</h4>
                     <p>Chicken and Avocado</p>
                 </div>
